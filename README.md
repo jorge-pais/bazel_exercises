@@ -2,7 +2,7 @@
 
 This repository contains a set of exercises designed to introduce developers to Bazel and demonstrate its capabilities. The exercises focus on building and extending a C++ CLI application using different Bazel rules.
 
-## 📖 Purpose of exercises
+## :school: Purpose of exercises
 
 Bazel is a powerful build system that helps manage large-scale builds with efficiency and reliability. This repository aims to teach developers the fundamentals of Bazel, including:
 
@@ -26,7 +26,7 @@ If you need an entry point for documentation, take a look at the following links
 - [Bazel rules](https://bazel.build/rules/rules-tutorial)
 - [YouTube Tutorial for Bazel beginners](https://www.youtube.com/watch?v=toPWLiUq5Ps)
 
-## 🧑‍💻 Getting Started
+## :computer: Getting Started
 
 - **Fork the repository** using GitHub’s web interface.
 - **Clone this repository**:
@@ -38,7 +38,7 @@ If you need an entry point for documentation, take a look at the following links
 
 **Happy hacking!**
 
-## 🧑‍💻 Exercise 1: Setting Up the BUILD files for the C++ CLI Application
+## :computer: Exercise 1: Setting Up the BUILD files for the C++ CLI Application
 
 In this first exercise, we will focus on creating the necessary Bazel configuration to build the C++ application located in the `project/cli` folder. The goal is to set up a basic Bazel build system for a C++ application and verify that it works for the host platform.
 
@@ -65,7 +65,7 @@ In this first exercise, we will focus on creating the necessary Bazel configurat
    - Use Bazel to build the application for your host platform.
    - Run the resulting executable to verify everything is working.
 
-### 🔍 Key Takeaways
+### :briefcase: Key Takeaways
 
 By completing this exercise, you will:
 
@@ -75,7 +75,7 @@ By completing this exercise, you will:
 
 Ready? Let’s get started! 🚀
 
-## 🧑‍💻 Exercise 2: Generating C++ Code Using a Python Code Generator in Bazel
+## :computer: Exercise 2: Generating C++ Code Using a Python Code Generator in Bazel
 
 In this exercise, we will extend our Bazel setup by integrating a Python-based code generator that produces C++ source files. The goal is to automate the code generation step within the Bazel build process, ensuring that the generated files are correctly included in the final application build.
 
@@ -100,7 +100,7 @@ In this exercise, we will extend our Bazel setup by integrating a Python-based c
    - Verify that the code generator runs automatically before compiling the C++ application.
    - Ensure that the generated files are included in the final binary.
 
-### 🔍 Key Takeaways
+### :briefcase: Key Takeaways
 
 By completing this exercise, you will:
 
@@ -110,7 +110,7 @@ By completing this exercise, you will:
 
 Ready to enhance the build process? 🚀
 
-## 🧑‍💻 Exercise 3 - Generating C++ Code Using a Java Code Generator in Bazel
+## :computer: Exercise 3 - Generating C++ Code Using a Java Code Generator in Bazel
 
 In this exercise, we will further extend our Bazel setup by integrating a Java-based code generator that produces C++ source files. Similar to Exercise 2, the goal is to ensure that Bazel correctly runs the Java generator and incorporates the generated files into the final C++ application build.
 
@@ -135,7 +135,7 @@ In this exercise, we will further extend our Bazel setup by integrating a Java-b
    - Verify that the Java code generator runs before compiling the C++ application.
    - Ensure that the generated files are included in the final binary.
 
-### 🔍 Key Takeaways
+### :briefcase: Key Takeaways
 
 By completing this exercise, you will:
 
